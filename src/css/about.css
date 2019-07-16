@@ -1,0 +1,30 @@
+.simple-container{
+    width: 50vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.simple-subcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.simple-subcontainer h1{
+    font-size: 5em;
+}
+.simple-subcontainer p {
+    font-size: 2em;
+}
+.contact-title{
+    font-size: 5em;
+    background: aqua;
+    margin: 4vw;
+}
+.simple-container a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,32 @@
+.presentation{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 8em;
+    line-height: 18vh;
+    background: yellow;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+}
+.each-gallery{
+    display: flex;
+    align-items: center;
+    padding: 11vh 0vh 3vh 0vh;
+}
+.each-gallery div {
+    width: 20vw;
+    font-size: 2em;
+    font-weight: 100; 
+    margin-right: 5vw;
+}
+img{
+
+    width: 60vw;
+
+}
